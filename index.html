@@ -3,58 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
-        <h1>
-          Weather App
-        </h1>
-        <ul>
-          <li>
-            Lisbon
-          </li>
-          <li>
-            Saturday, 25/7/2020
-          </li>
-          <li>
-            Clear sky
-          </li>
-        </ul>
-        <div class="row">
-          <div class="col-6">
-            ☀️ 26ºC
-          </div>
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <h1>
+            Weather App
+          </h1>
+          <ul>
+            <li class="city">
+              Lisbon
+            </li>
+            <li>
+              Saturday, 25/7/2020
+            </li>
+            <li>
+              Clear sky
+            </li>
+          </ul>
+          <div class="row city-temperature">
+            <div class="col-6">
+              ☀️ 26ºC
+            </div>
 
-          <div class="col-6">
-            <ul>
-              <li class="humidity">
-                Humidity: 52%
-              </li>
-              <li class="precipitation">
-                Precipitation: 5%
-              </li>
-              <li class="wind">
-                Wind: 20
-              </li>
-            </ul>
+            <div class="col-6">
+              <ul>
+                <li class="humidity">
+                  Humidity: 52%
+                </li>
+                <li class="precipitation">
+                  Precipitation: 5%
+                </li>
+                <li class="wind">
+                  Wind: 20
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
+        <small>
+          <a href="https://github.com/saramsanches/Vanilla-Weather-App"
+            >Open-source code</a
+          >
+          by Sara Martins Sanches
+        </small>
       </div>
-      <small>
-        <a href="https://github.com/saramsanches/Vanilla-Weather-App"
-          >Open-source code</a
-        >
-        by Sara Martins Sanches
-      </small>
     </div>
     <script src="src/app.js"></script>
   </body>
