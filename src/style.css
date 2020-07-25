@@ -36,3 +36,21 @@ li {
 .city-temperature {
   margin-top: 20px;
 }
+
+.weather-temperature img {
+  margin-right: 20px;
+  height: 64 px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
