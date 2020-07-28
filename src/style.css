@@ -61,3 +61,12 @@ li:first-letter {
 .city {
   font-size: 32px;
 }
+
+.weather-temperature .active {
+  color: #212529;
+}
+
+.weather-temperature .active:hover {
+  cursor: default;
+  text-decoration: none;
+}
