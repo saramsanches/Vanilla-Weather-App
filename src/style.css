@@ -17,6 +17,7 @@ ul {
 
 li {
   list-style: none;
+  text-transform: capitalize;
   margin: 0;
   padding: 0;
 }
@@ -53,4 +54,8 @@ li {
   position: relative;
   font-size: 16px;
   top: -34px;
+}
+
+.city {
+  font-size: 32px;
 }
