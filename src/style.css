@@ -1,11 +1,11 @@
 body {
-  background-image: url(https://thumbs.dreamstime.com/z/seamless-pattern-sun-clouds-rain-rainbow-wallpaper-children-room-weather-background-seamless-pattern-sun-clouds-156099778.jpg);
+  background-image: url(https://cdn2.vectorstock.com/i/1000x1000/10/11/seamless-pattern-of-weather-symbols-vector-2011011.jpg);
   background-size: 50%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
 }
 h1 {
-  color: #ff9595;
+  color: #ba7967;
 }
 
 ul {
@@ -30,7 +30,7 @@ li:first-letter {
   margin: 30px auto;
 }
 .weather-app {
-  background-color: white;
+  background-color: #bca98b;
   padding: 20px;
   border: 1px solid #342b38;
   border-radius: 5px;
