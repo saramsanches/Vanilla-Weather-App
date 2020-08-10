@@ -82,8 +82,17 @@ li:first-letter {
   max-width: 100%;
   position: relative;
   margin-left: 60px;
+  text-align: center;
+  color: #212529;
 }
 
-.max-strong {
+.five-days-forecast img {
+  display: block;
+  margin: 0 auto;
+  weight: 65px;
+  height: 65px;
+}
+
+.five-days-forecast strong {
   font-weight: 700;
 }
