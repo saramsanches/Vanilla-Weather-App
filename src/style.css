@@ -70,3 +70,20 @@ li:first-letter {
   cursor: default;
   text-decoration: none;
 }
+
+.forecast {
+  margin-top: 20px;
+  text-decoration: underline;
+  color: #ba7967;
+  font-weight: 700;
+}
+
+.five-days-forecast {
+  max-width: 100%;
+  position: relative;
+  margin-left: 60px;
+}
+
+.max-strong {
+  font-weight: 700;
+}
